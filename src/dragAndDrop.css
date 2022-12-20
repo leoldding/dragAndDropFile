@@ -1,0 +1,43 @@
+#fileUploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hiddenFileInput {
+    display: None;
+}
+
+.dragAndDrop {
+    background-color: #303030;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    border-color: transparent;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+.dragAndDrop > * {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.dragBorder {
+    border-color: #CCCCCC;
+}
+
+#selectFile {
+    background-color: transparent;
+    border-color: transparent;
+    color: #CCCCCC;
+}
+
+#selectFile:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
